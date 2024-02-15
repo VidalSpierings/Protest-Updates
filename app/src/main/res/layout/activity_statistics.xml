@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatisticsActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/custom_background_png"
+        android:scaleType="centerCrop"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130sp"
+            android:layout_marginStart="75sp"
+            android:layout_marginEnd="75sp"
+            android:layout_marginBottom="100sp"
+            android:layout_gravity="center"
+            android:background="@color/primaryItemColor">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:orientation="vertical"
+                android:padding="20sp">
+
+                <com.anychart.AnyChartView
+                    android:id="@+id/any_chart_view"
+                    android:layout_width="250sp"
+                    android:layout_height="400sp"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/stat_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:hint="lorem ipsum"
+                    android:gravity="center|start"
+                    android:visibility="visible"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </ScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "213153058306",
+    "firebase_url": "https://protest-updates-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "protest-updates",
+    "storage_bucket": "protest-updates.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213153058306:android:ec80c072685755cb20a11b",
+        "android_client_info": {
+          "package_name": "com.spierings.protestupdates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMeeMjfDCVopOsoDGYYnP8z1rbuO_FkCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
